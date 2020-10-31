@@ -580,7 +580,7 @@ bundle_libmosquitto() {
   MOSQUITTO_PACKAGE_BASENAME="${MOSQUITTO_PACKAGE_VERSION}.tar.gz"
 
   if fetch_and_verify "mosquitto" \
-    "https://github.com/netdata/mosquitto/archive/${MOSQUITTO_PACKAGE_BASENAME}" \
+    "https://github.com/myles1729/mosquitto/archive/${MOSQUITTO_PACKAGE_BASENAME}" \
     "${MOSQUITTO_PACKAGE_BASENAME}" \
     "${tmp}" \
     "${NETDATA_LOCAL_TARBALL_OVERRIDE_MOSQUITTO}"; then
